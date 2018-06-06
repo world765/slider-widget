@@ -1,12 +1,7 @@
 
-var slider = document.getElementById("price");
-slider.addEventListener('input', sliderChange);
 
 var savings = document.getElementById("sallerPrice");
 savings.addEventListener("input", savingListener);
-
-var rebate = document.getElementById("buyerPrice")
-rebate.addEventListener("input", rebateListener);
 
 function numericFormat(a) {
   a = a.toString();
